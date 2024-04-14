@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .pomo-container {
+    @apply max-w-[480px] px-2;
+  }
+}
