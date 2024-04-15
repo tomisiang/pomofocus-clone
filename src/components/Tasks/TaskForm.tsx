@@ -115,10 +115,10 @@ export default function TaskForm(props: TaskFormProps) {
               type='text'
               {...registerComponent.title}
               placeholder='What are you working on?'
-              className='text-xl outline-none'
+              className='text-xl outline-none text-[rgb(85,85,85)] font-bold'
             />
           </div>
-          <div className='flex flex-col gap-2.5'>
+          <div className='flex flex-col gap-2.5 font-bold text-[rgb(85,85,85)]'>
             <div>
               {mode === 'edit' && <span>Act / </span>}
               <span>Est Pomodoros</span>
